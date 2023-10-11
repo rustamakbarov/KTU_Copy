@@ -1,0 +1,1070 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>KTU COPY</title>
+    <style>
+        /* ALL style */
+        *
+        {
+            padding: 0;
+            margin: 0;
+        }
+
+        body
+        {
+            font-family: sans-serif;
+        }
+
+        /* HEADER style */
+        header
+        {
+          background-image: url(https://www.ktu.edu.tr/image/top_bg.png);
+        }
+
+
+        .top-btn
+        {
+            margin-top: 3px;
+            margin-bottom:5px;
+        }
+
+
+        .top-icons
+        {
+            display: flex;
+            justify-content: right;
+        }
+
+        .bi-envelope
+        {
+            
+           margin-top: 10px;
+           margin-bottom: 10px;
+        }
+
+
+        .bi-phone
+        {
+            
+            margin-top: 7px;
+            margin-bottom: 10px;
+        }
+
+        .top-sosial-icons
+        {
+            margin-top: 7px;
+            margin-right: 30px;
+            margin-bottom:5px;
+        }
+
+        /* NAVBAR style */
+        .navbar
+        {
+          background-color: #fff !important;
+        }
+
+
+        .nav-link:hover
+        {
+            color: white!important;
+            background-color:#002f4b
+        }
+
+        .dropdown-item:hover
+        {
+            background-color: #002f4b !important;
+            color: #1eafc7 !important;
+            text-decoration: underline white;
+        }
+
+        .dropdown-menu
+        {
+            background-color:#002f4b
+        }
+
+        /* CAROUSEL style */
+        .carousel-area
+        {
+          background-color: #f1f2f2;
+        }
+
+        /* SECTION style */
+        .section-h
+        {
+          color: #002f4b;
+          font-weight: bold;
+        }
+
+        .section-area
+        {
+          background-image: url(https://www.ktu.edu.tr/image/top_bg.png);
+        }
+
+        .section-sm:hover
+        {
+          background-color:#ee6352 ;
+          color: #fff;
+        }
+
+        /* DUYURULAR style */
+        .duyuru-area
+        {
+          color:#fff;
+          font-weight: bold;
+          background-image: url(https://www.ktu.edu.tr/image/duyuru_bg.png);
+        }
+
+        .duyuru-link
+        {
+          text-decoration: none;
+          color: #fff;
+        }
+
+        .duyuru-link:hover
+        {
+          color: #fff;
+        }
+
+        .duyuru-sm:hover
+        {
+          background-color: #0d6efd;
+          border-radius: 5px;
+        }
+
+        .duyuru-time
+        {
+          font-weight: bold;
+        }
+
+        /* HABERLER style */
+        .haberler-tittle
+        {
+          color: #00426a;
+          font-weight: bold;
+        }
+
+        .haber-time
+        {
+          color: red;
+          text-decoration: underline 3px red;
+        }
+
+        .haber-link
+        {
+          text-decoration: none;
+        }
+
+        /* ETKINLIKLER style */
+        .etkinlikler-area
+        {
+          background-color: red;
+        }
+
+        .etkinlik-tittle
+        {
+          font-weight: bold;
+          color: #fff;
+          padding: 20px 0;
+        }
+
+        .etkinlik-date
+        {
+          font-weight: bold;
+        }
+
+        /* SAYILARLA KTÜ style */
+        .sayilarla-h
+        {
+          font-weight: bold;
+          color: #00426a;
+        }
+
+
+        .sayilarla-icon,
+        .sayilarla-p
+        {
+          color: #00426a;
+        }
+
+        .sayilar
+        {
+          font-weight: bold;
+          color: #00426a;
+        }
+
+        /* FOOTER style */
+        footer
+        {
+          background-color: #2d2d2d;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- TOP -->
+    <header>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">   
+                        <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="16" fill="currentColor" class="bi bi-envelope rounded " viewBox="0 0 16 16">
+                                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+                            </svg>
+                        </span>
+                        <span class="me-4">
+                            kik@ktu.edu.tr
+                        </span>
+    
+                        <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="20" fill="currentColor" class="bi bi-phone rounded" viewBox="0 0 16 16">
+                                <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"/>
+                                <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+                            </svg>
+                        </span>
+                        <span>
+                            +90 462 377 3000
+                        </span>
+                    </div>
+                    <div class="col-sm-6 top-icons">        
+                        <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-twitter-t top-sosial-icons" viewBox="0 0 16 16">
+                                <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                            </svg>
+                        </span>
+                                    
+                        <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-facebook-t top-sosial-icons" viewBox="0 0 16 16">
+                                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                            </svg>
+                        </span>
+                        <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-instagram-t top-sosial-icons" viewBox="0 0 16 16">
+                                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                            </svg>
+                        </span>
+                                    
+                        <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-linkedin-t top-sosial-icons" viewBox="0 0 16 16">
+                                <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                            </svg>
+                        </span>  
+                        <span>
+                            <div class="dropdown">
+                                <a class="btn btn-primary dropdown-toggle p-0 rounded-0 top-btn" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                  TR
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                  <li><a class="dropdown-item text-light" href="#">ENG</a></li>
+                                  <li><a class="dropdown-item text-light" href="#">RUS</a></li>
+                                </ul>
+                            </div>
+                        </span>                   
+                    </div>  
+                </div>
+            </div>
+    </header>
+    <!-- TOP END-->
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light mt-5">
+        <div class="container">     
+           <a class="navbar-brand" href="#">
+            <img src="https://www.ktu.edu.tr/image/logo/birim/tr.png" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      AKADEMIK
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item text-light" href="#">Genel</a></li>
+                      <li><a class="dropdown-item text-light" href="#">Yönetim</a></li>
+                      <li><a class="dropdown-item text-light" href="#">Bağlı Birimler</a></li>
+                      <li><a class="dropdown-item text-light" href="#">Kurullar ve Komisiyonlar</a></li>
+                      <li><a class="dropdown-item text-light" href="#">Kişisel Verilerin Korunması</a></li>
+                      
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      ÖĞRENCİ
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item text-light" href="#">Birimler</a></li>
+                      <li><a class="dropdown-item text-light" href="#">E-Öğrenci</a></li>
+                      <li><a class="dropdown-item text-light" href="#">Eğitim</a></li>
+                      <li><a class="dropdown-item text-light" href="#">Aday Öğrenci</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      AKADEMİK
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item text-light" href="#">Fakülteler</a></li>
+                      <li><a class="dropdown-item text-light" href="#">Enstitüler</a></li>
+                      <li><a class="dropdown-item text-light" href="#">Yüksekokullar</a></li>
+                      <li><a class="dropdown-item text-light" href="#">Meslek Yüksekokulları</a></li>
+                      <li><a class="dropdown-item text-light" href="#">Rektörlüğe Bağlı Bölümler</a></li>
+                    </ul>
+                </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  İDARİ
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item text-light" href="#">Genel Sekreterlik</a></li>
+                  <li><a class="dropdown-item text-light" href="#">Daire Başkanlıkları</a></li>
+                  <li><a class="dropdown-item text-light" href="#">Diğer Birimler</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  ARAŞTIRMA
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item text-light" href="#">Uygulama ve Araştırma Merkezi</a></li>
+                  <li><a class="dropdown-item text-light" href="#">Labaratuvarlar</a></li>
+                  <li><a class="dropdown-item text-light" href="#">Etik Kurullar</a></li>
+                  <li><a class="dropdown-item text-light" href="#">Proje</a></li>
+                  <li><a class="dropdown-item text-light" href="#">Diğer</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  HIZLI ERİŞİM
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item text-light" href="#">E-Hizmetler</a></li>
+                  <li><a class="dropdown-item text-light" href="#">Bilgi İşlem</a></li>
+                  <li><a class="dropdown-item text-light" href="#">Eğitim</a></li>
+                  <li><a class="dropdown-item text-light" href="#">Toplumsal Hizmetler</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- NAVBAR END -->
+
+    <!-- CAROUSEL -->
+    <div class="container-fluid carousel-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8" aria-label="Slide 9"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="9" aria-label="Slide 10"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="https://www.ktu.edu.tr/slayt/slaytrG9EgQ.jpg" class="d-block w-100" alt="First Image">
+                </div>
+                <div class="carousel-item">
+                  <img src="https://www.ktu.edu.tr/slayt/slaytYh9Kxc.jpg" class="d-block w-100" alt="Second Image">
+                </div>
+                <div class="carousel-item">
+                  <img src="https://www.ktu.edu.tr/slayt/tr_e6f636.gif" class="d-block w-100" alt="Third Image">
+                </div>
+                <div class="carousel-item">
+                  <img src="https://www.ktu.edu.tr/slayt/slaytYkgUHR.jpg" class="d-block w-100" alt="Fourth Image">
+                </div>
+                <div class="carousel-item">
+                  <img src="https://www.ktu.edu.tr/slayt/tr_d09aa0.png" class="d-block w-100" alt="Fifth Image">
+                </div>
+                <div class="carousel-item">
+                  <img src="https://www.ktu.edu.tr/slayt/tr_30735f.png" class="d-block w-100" alt="Sixth Image">
+                </div>
+                <div class="carousel-item">
+                  <img src="https://www.ktu.edu.tr/slayt/tr_6d8859.png" class="d-block w-100" alt="Seventh Image">
+                </div>
+                <div class="carousel-item">
+                  <img src="https://www.ktu.edu.tr/slayt/tr_d396da.png" class="d-block w-100" alt="Eighth Image">
+                </div>
+                <div class="carousel-item">
+                  <img src="https://www.ktu.edu.tr/slayt/tr_0ea7d7.png" class="d-block w-100" alt="Ninth Image">
+                </div>
+                <div class="carousel-item">
+                  <img src="https://www.ktu.edu.tr/slayt/slaytlqMyGQ.jpg" class="d-block w-100" alt="Last Image">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- CAROUSEL END-->
+
+    <!-- SECTION -->
+    <div class="container-fluid section-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm section-sm">
+            <a href="#" class="text-decoration-none">
+              <h6 class="p-1 section-h">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-journals" viewBox="0 0 16 16">
+                  <path d="M5 0h8a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2 2 2 0 0 1-2 2H3a2 2 0 0 1-2-2h1a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1H1a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v9a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1H3a2 2 0 0 1 2-2z"/>
+                  <path d="M1 6v-.5a.5.5 0 0 1 1 0V6h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V9h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 2.5v.5H.5a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1H2v-.5a.5.5 0 0 0-1 0z"/>
+                </svg>
+                <br>
+                BYS
+              </h6>
+              <p class="text-muted">
+                Bilgi Yönetim Sistemi
+              </p>
+            </a>
+          </div>
+          <div class="col-sm section-sm">
+            <a href="#" class="text-decoration-none">
+              <h6 class="section-h p-1">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
+                  <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
+                  <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"/>
+                </svg>
+                <br>
+                EBYS
+              </h6>
+              <p class="text-muted">
+                Elektronik Belge Yönetim Sistemi
+              </p>
+            </a>
+          </div>
+          <div class="col-sm section-sm">
+            <a href="#" class="text-decoration-none">
+              <h6 class="section-h p-1">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-envelope-exclamation-fill" viewBox="0 0 16 16">
+                  <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.026A2 2 0 0 0 2 14h6.256A4.493 4.493 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586l-1.239-.757ZM16 4.697v4.974A4.491 4.491 0 0 0 12.5 8a4.49 4.49 0 0 0-1.965.45l-.338-.207L16 4.697Z"/>
+                  <path d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm.5-5v1.5a.5.5 0 0 1-1 0V11a.5.5 0 0 1 1 0Zm0 3a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0Z"/>
+                </svg>
+                <br>
+                Webmail
+              </h6>
+              <p class="text-muted">
+                KTÜ E-Posta Hizmeti
+              </p>
+            </a>
+          </div>
+          <div class="col-sm section-sm">
+            <a href="#" class="text-decoration-none">
+              <h6 class="section-h p-1">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-check-square-fill" viewBox="0 0 16 16">
+                  <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm10.03 4.97a.75.75 0 0 1 .011 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.75.75 0 0 1 1.08-.022z"/>
+                </svg>
+                <br>
+                Strateji & Kalite
+              </h6>
+              <p class="text-muted">
+                Kurumsal Gelişim ve Planlama
+              </p>
+            </a>
+          </div>
+          <div class="col-sm section-sm">
+            <a href="#" class="text-decoration-none">
+              <h6 class="section-h p-1">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-telephone-forward-fill" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511zm10.761.135a.5.5 0 0 1 .708 0l2.5 2.5a.5.5 0 0 1 0 .708l-2.5 2.5a.5.5 0 0 1-.708-.708L14.293 4H9.5a.5.5 0 0 1 0-1h4.793l-1.647-1.646a.5.5 0 0 1 0-.708z"/>
+                </svg>
+                <br>
+                Kurumsal İletişim
+              </h6>
+              <p class="text-muted">
+                Web,Radyo,Tv,Gazete
+              </p>
+            </a>
+          </div>
+          <div class="col-sm section-sm">
+            <a href="#" class="text-decoration-none">
+              <h6 class="section-h p-1">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-book-half" viewBox="0 0 16 16">
+                  <path d="M8.5 2.687c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z"/>
+                </svg>
+                <br>
+                Kütüphane
+              </h6>
+              <p class="text-muted">
+                KTÜ Kütüphanesi
+              </p>
+            </a>
+          </div>
+          <div class="col-sm section-sm">
+            <a href="#" class="text-decoration-none">
+              <h6 class="section-h p-1">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-android2" viewBox="0 0 16 16">
+                  <path d="m10.213 1.471.691-1.26c.046-.083.03-.147-.048-.192-.085-.038-.15-.019-.195.058l-.7 1.27A4.832 4.832 0 0 0 8.005.941c-.688 0-1.34.135-1.956.404l-.7-1.27C5.303 0 5.239-.018 5.154.02c-.078.046-.094.11-.049.193l.691 1.259a4.25 4.25 0 0 0-1.673 1.476A3.697 3.697 0 0 0 3.5 5.02h9c0-.75-.208-1.44-.623-2.072a4.266 4.266 0 0 0-1.664-1.476ZM6.22 3.303a.367.367 0 0 1-.267.11.35.35 0 0 1-.263-.11.366.366 0 0 1-.107-.264.37.37 0 0 1 .107-.265.351.351 0 0 1 .263-.11c.103 0 .193.037.267.11a.36.36 0 0 1 .112.265.36.36 0 0 1-.112.264Zm4.101 0a.351.351 0 0 1-.262.11.366.366 0 0 1-.268-.11.358.358 0 0 1-.112-.264c0-.103.037-.191.112-.265a.367.367 0 0 1 .268-.11c.104 0 .19.037.262.11a.367.367 0 0 1 .107.265c0 .102-.035.19-.107.264ZM3.5 11.77c0 .294.104.544.311.75.208.204.46.307.76.307h.758l.01 2.182c0 .276.097.51.292.703a.961.961 0 0 0 .7.288.973.973 0 0 0 .71-.288.95.95 0 0 0 .292-.703v-2.182h1.343v2.182c0 .276.097.51.292.703a.972.972 0 0 0 .71.288.973.973 0 0 0 .71-.288.95.95 0 0 0 .292-.703v-2.182h.76c.291 0 .54-.103.749-.308.207-.205.311-.455.311-.75V5.365h-9v6.404Zm10.495-6.587a.983.983 0 0 0-.702.278.91.91 0 0 0-.293.685v4.063c0 .271.098.501.293.69a.97.97 0 0 0 .702.284c.28 0 .517-.095.712-.284a.924.924 0 0 0 .293-.69V6.146a.91.91 0 0 0-.293-.685.995.995 0 0 0-.712-.278Zm-12.702.283a.985.985 0 0 1 .712-.283c.273 0 .507.094.702.283a.913.913 0 0 1 .293.68v4.063a.932.932 0 0 1-.288.69.97.97 0 0 1-.707.284.986.986 0 0 1-.712-.284.924.924 0 0 1-.293-.69V6.146c0-.264.098-.491.293-.68Z"/>
+                </svg>
+                <br>
+                UZEM
+              </h6>
+              <p class="text-muted">
+                KTÜ Uzaktan Eğitim
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- SECTION END-->
+
+    <!-- DUYURULAR -->
+    <div class="container-fluid duyuru-area pt-2 pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h4 class="my-5">
+              DUYURULAR
+            </h4>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4 duyuru-sm pt-4 px-2 pb-1">
+            <a href="#" class="duyuru-link">
+              <div class="row">
+                <div class="col-3">
+                  <h3 class="duyuru-time">
+                    31
+                  </h3>
+                  <span class="p-2 duyuru-time bg-light text-primary">
+                    Mart
+                  </span>
+                </div>
+                <div class="col-9">
+                  <p>
+                    2022-2023 Eğitim ve Öğretim Yılı Bahar Dönemine
+                    İlişkin Duyuru
+                  </p>
+                  <h6 class="text-primary">
+                    Rektörlük
+                  </h6>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-sm-4 duyuru-sm pt-4 px-2 pb-1">
+            <a href="#" class="duyuru-link">
+              <div class="row">
+                <div class="col-3">
+                  <h3 class="duyuru-time">
+                    27
+                  </h3>
+                  <span class="p-2 duyuru-time bg-light text-primary">
+                    Mart
+                  </span>
+                </div>
+                <div class="col-9">
+                  <p >
+                    Sözleşmeli Bilişim Personeli Alım İlanı
+                  </p>
+                  <h6 class="text-primary">
+                    KTÜ Rektörlüğü
+                  </h6>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-sm-4 duyuru-sm pt-4 px-2 pb-1">
+            <a href="#" class="duyuru-link">
+              <div class="row">
+                <div class="col-3">
+                  <h3 class="duyuru-time">
+                    24
+                  </h3>
+                  <span class="p-2 duyuru-time bg-light text-primary">
+                    Mart
+                  </span>
+                </div>
+                <div class="col-9">
+                  <p>
+                    30.03.2022 Tarihli 4\B Sözleşmeli Personel Alım İlanına
+                    Yapılan Başvurular Sonucu Yerleşmeye Hak Kazanan Yedek Adaylara
+                    İlişkin Duyuru
+                  </p>
+                  <h6 class="text-primary">
+                    Personel Daire Başkanlığı
+                  </h6>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="row my-3">
+          <div class="col-sm-4 duyuru-sm pt-4 px-2 pb-1">
+            <a href="#" class="duyuru-link">
+              <div class="row">
+                <div class="col-3">
+                  <h3 class="duyuru-time">
+                    24
+                  </h3>
+                  <span class="p-2 duyuru-time bg-light text-primary">
+                    Mart
+                  </span>
+                </div>
+                <div class="col-9">
+                  <p>
+                    28.06.2022 Tarihli 4\B Sözleşmeli Personel Alım İlanına
+                    Yapılan Başvurular Sonucu Yerleşmeye Hak Kazanan Yedek Adaylara
+                    İlişkin Duyuru
+                  </p>
+                  <h6 class="text-primary">
+                    Personel Daire Başkanlığı
+                  </h6>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-sm-4 duyuru-sm pt-4 px-2 pb-1">
+            <a href="#" class="duyuru-link">
+              <div class="row">
+                <div class="col-3">
+                  <h3 class="duyuru-time">
+                    20
+                  </h3>
+                  <span class="p-2 duyuru-time bg-light text-primary">
+                    Mart
+                  </span>
+                </div>
+                <div class="col-9">
+                  <p>
+                    2023 Yılı Orman Mühendisliği Bölümü İlmi Hüviyet
+                    Tespit Sınavı
+                  </p>
+                  <h6 class="text-primary">
+                    Orman Mühendisliği Bölüm Başkanlığı
+                  </h6>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-sm-4 duyuru-sm pt-4 px-2 pb-1">
+            <a href="#" class="duyuru-link">
+              <div class="row">
+                <div class="col-3">
+                  <h3 class="duyuru-time">
+                    15
+                  </h3>
+                  <span class="p-2 duyuru-time bg-light text-primary">
+                    Mart
+                  </span>
+                </div>
+                <div class="col-9">
+                  <p>
+                    2023 Yılı Hüviyet Sınav Takvimi
+                  </p>
+                  <h6 class="text-primary">
+                    Mühendislik Fakultesi
+                  </h6>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- DUYURULAR END-->
+
+    <!-- HABERLER -->
+    <div class="container mt-3">
+      <div class="row">
+        <div class="col-sm-12">
+          <h3 class="haberler-tittle mt-3 mb-4">
+            HABERLER
+          </h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4">
+          <a href="#" class="haber-link">
+            <img src="https://www.ktu.edu.tr/slayt/haber/EA0c4G.jpg" class="w-100">
+          <h5 class="haberler-tittle">
+            Öğretim Üyelerimiz, 6 Şubat Kahramanmaraş Depremleri ile 
+            İlgili Şehir Paydaşlarını Bilgilendirdi
+          </h5 class="haberler-tittle">
+          <p class="text-muted">
+            Üniversitemiz Mühendislik Fakültesi İnşaat Mühendisliği Bölümü
+             Öğretim Üyesi Prof. Dr. Ahmet Can ALTUNIŞIK ve Jeoloji 
+             Mühendisliği Bölümü Öğretim Üyesi Prof. Dr. Hakan ERSOY
+          </p>
+          <p class="haber-time">
+            24 Mart 2023
+          </p>
+          </a>
+          
+        </div>
+        <div class="col-sm-4">
+          <a href="#" class="haber-link">
+            <img src="https://www.ktu.edu.tr/slayt/haber/VTYNrQ.jpg" class="w-100">
+          <h5 class="haberler-tittle">
+            Kütüphane Haftası'nda, Üniversitemizdeki Yazarlarımız 
+            ile Söyleşi&İmza Programı Düzenlendi
+          </h5>
+          <p class="text-muted">
+            Program, Kütüphane ve Dökümantasyon Daire Başkanlığı ile Karoyer 
+            Geliştirme Uygulama ve Araştırma Merkezi ortaklığında gerçekleştirildi.
+          </p>
+          <p class="haber-time mt-2">
+            23 Mart 2023
+          </p>
+          </a>
+          
+        </div>
+        <div class="col-sm-4">
+          <a href="#" class="haber-link">
+            <img src="https://www.ktu.edu.tr/slayt/haber/S9lBdv.jpg" class="w-100">
+          <h5 class="haberler-tittle">
+            TÜBİTAK 2209\A ve 2209\B Programlarında Üniversitemizin
+            Büyük Başarısı
+          </h5>
+          <p class="text-muted">
+            TÜBİTAK 2209\A ve 2209\B Programları
+          </p>
+          <p class="haber-time mt-5">
+            22 Mart 2023
+          </p>
+          </a>
+          
+        </div>
+      </div>
+    </div>
+    <!-- HABERLER END-->
+
+    <!-- ETKINLIKLER -->
+    <div class="container-fluid etkinlikler-area">
+      <div class="container">
+        <div class="row mb-2">
+          <div class="col-sm-12">
+            <h3 class="etkinlik-tittle">
+              ETKINLIKLER
+            </h3>
+          </div>
+        </div>
+
+        <div class="row mb-5">
+          <div class="col-sm-3 shadow">
+            <a href="#" class="text-decoration-none">
+              <h3 class="etkinlik-date text-light">
+                03
+              </h3>
+              <span class="p-1 text-danger bg-white">
+                Nisan
+              </span>
+              <img src="https://www.ktu.edu.tr/slayt/etk/rJW6VN.jpg" class="w-100" alt="">
+              <h4 class="text-light">
+                Ramazan Ayında Beslenme Önerileri
+              </h4>
+              <p class="text-light">
+                Prof.Dr.Bahattin Kahveci KTÜ TV'nin konuğu olacaktır.
+              </p>
+            </a>
+          </div>
+          <div class="col-sm-3 shadow">
+            <a href="#" class="text-decoration-none">
+              <h3 class="etkinlik-date text-light">
+                03
+              </h3>
+              <span class="p-1 text-danger bg-white">
+                Nisan
+              </span>
+              <img src="https://www.ktu.edu.tr/slayt/etk/wItD4P.jpg" class="w-100" alt="">
+              <h4 class="text-light">
+                180 Günlük Eylem Planı Sonuç Raporu Bilgilendirme 
+                Toplantısı 
+              </h4>
+              <p class="text-light">
+                5. Eylem Dönemi Sonuç Raporu Bilgilendirmesi
+              </p>
+            </a>
+          </div>
+          <div class="col-sm-3 shadow">
+            <a href="#" class="text-decoration-none">
+              <h3 class="etkinlik-date text-light">
+                02
+              </h3>
+              <span class="p-1 text-danger bg-white">
+                Mayıs
+              </span>
+              <img src="https://www.ktu.edu.tr/slayt/etk/j3gueQ.jpg" class="w-100" alt="">
+              <h4 class="text-light">
+                8. Uluslararası Sağlık Bilimleri ve Yönetimi Kongresi
+              </h4>
+              <p class="text-light">
+                Sağlıkta İnsan Kaynakları Yönetimi ve İstihdam Sorunları
+              </p>
+            </a>
+          </div>
+          <div class="col-sm-3 shadow">
+            <h3 class="text-light etkinlik-date">
+              08
+            </h3>
+            <span class="p-1 text-danger bg-white">
+              Mayıs
+            </span>
+            <img src="https://www.ktu.edu.tr/slayt/etk/R7atGF.jpg" class="w-100" alt="">
+            <h4 class="text-light">
+              7. Uluslararası Adli Hemşirelik Kongresi
+            </h4>
+            <p class="text-light">
+              7. İnternational Forensic Nursing Congress
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ETKINLIKLER END-->
+
+    <!-- SAYILAR KTU -->
+    <div class="container my-5">
+      <div class="row mb-3">
+        <div class="col-sm-12">
+          <h3 class="sayilarla-h">
+            Sayılarla KTÜ
+          </h3>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <h3>
+            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-person-square sayilarla-icon" viewBox="0 0 16 16">
+              <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+              <path d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm12 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1v-1c0-1-1-4-6-4s-6 3-6 4v1a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12z"/>
+            </svg>
+          </h3>
+          <h3 class="sayilar">
+            30882
+          </h3>
+          <h6 class="sayilarla-p">
+            Öğrenci
+          </h6>
+        </div>
+        <div class="col">
+          <h3>
+            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-mortarboard-fill sayilarla-icon" viewBox="0 0 16 16">
+              <path d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917l-7.5-3.5Z"/>
+              <path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Z"/>
+            </svg>
+          </h3>
+          <h3 class="sayilar">
+            249761
+          </h3>
+          <h6 class="sayilarla-p">
+            Mezun
+          </h6>
+        </div>
+        <div class="col">
+          <h3>
+            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-person-vcard-fill sayilarla-icon" viewBox="0 0 16 16">
+              <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm9 1.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 0-1h-4a.5.5 0 0 0-.5.5ZM9 8a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 0-1h-4A.5.5 0 0 0 9 8Zm1 2.5a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 0-1h-3a.5.5 0 0 0-.5.5Zm-1 2C9 10.567 7.21 9 5 9c-2.086 0-3.8 1.398-3.984 3.181A1 1 0 0 0 2 13h6.96c.026-.163.04-.33.04-.5ZM7 6a2 2 0 1 0-4 0 2 2 0 0 0 4 0Z"/>
+            </svg>
+          </h3>
+          <h3 class="sayilar">
+            2141
+          </h3>
+          <h6 class="sayilarla-p">
+            Akademiz Personel
+          </h6>
+        </div>
+        <div class="col">
+          <h3>
+            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-person-fill-lock sayilarla-icon" viewBox="0 0 16 16">
+              <path d="M11 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm-9 8c0 1 1 1 1 1h5v-1a1.9 1.9 0 0 1 .01-.2 4.49 4.49 0 0 1 1.534-3.693C9.077 9.038 8.564 9 8 9c-5 0-6 3-6 4Zm7 0a1 1 0 0 1 1-1v-1a2 2 0 1 1 4 0v1a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1v-2Zm3-3a1 1 0 0 0-1 1v1h2v-1a1 1 0 0 0-1-1Z"/>
+            </svg>
+          </h3>
+          <h3 class="sayilar">
+            3141
+          </h3>
+          <h6 class="sayilarla-p">
+            İdari Personel
+          </h6>
+        </div>
+        <div class="col">
+          <h3>
+            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-building-fill-gear sayilarla-icon" viewBox="0 0 16 16">
+              <path d="M2 1a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v7.256A4.493 4.493 0 0 0 12.5 8a4.493 4.493 0 0 0-3.59 1.787A.498.498 0 0 0 9 9.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .39-.187A4.476 4.476 0 0 0 8.027 12H6.5a.5.5 0 0 0-.5.5V16H3a1 1 0 0 1-1-1V1Zm2 1.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5Zm3 0v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5Zm3.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1ZM4 5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5ZM7.5 5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Zm2.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5ZM4.5 8a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-1Z"/>
+              <path d="M11.886 9.46c.18-.613 1.048-.613 1.229 0l.043.148a.64.64 0 0 0 .921.382l.136-.074c.561-.306 1.175.308.87.869l-.075.136a.64.64 0 0 0 .382.92l.149.045c.612.18.612 1.048 0 1.229l-.15.043a.64.64 0 0 0-.38.921l.074.136c.305.561-.309 1.175-.87.87l-.136-.075a.64.64 0 0 0-.92.382l-.045.149c-.18.612-1.048.612-1.229 0l-.043-.15a.64.64 0 0 0-.921-.38l-.136.074c-.561.305-1.175-.309-.87-.87l.075-.136a.64.64 0 0 0-.382-.92l-.148-.045c-.613-.18-.613-1.048 0-1.229l.148-.043a.64.64 0 0 0 .382-.921l-.074-.136c-.306-.561.308-1.175.869-.87l.136.075a.64.64 0 0 0 .92-.382l.045-.148ZM14 12.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0Z"/>
+            </svg>
+          </h3>
+          <h3 class="sayilar">
+            254
+          </h3>
+          <h6 class="sayilarla-p">
+            Aktif Program
+          </h6>
+        </div>
+        <div class="col">
+          <h3>
+            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="sayilarla-icon bi bi-person-fill-check" viewBox="0 0 16 16">
+              <path d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm1.679-4.493-1.335 2.226a.75.75 0 0 1-1.174.144l-.774-.773a.5.5 0 0 1 .708-.708l.547.548 1.17-1.951a.5.5 0 1 1 .858.514ZM11 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/>
+              <path d="M2 13c0 1 1 1 1 1h5.256A4.493 4.493 0 0 1 8 12.5a4.49 4.49 0 0 1 1.544-3.393C9.077 9.038 8.564 9 8 9c-5 0-6 3-6 4Z"/>
+            </svg>
+          </h3>
+          <h3 class="sayilar">
+            26
+          </h3>
+          <h6 class="sayilarla-p">
+            Akredite Birim
+          </h6>
+        </div>
+        <div class="col">
+          <h3>
+            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="sayilarla-icon bi bi-people-fill" viewBox="0 0 16 16">
+              <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7Zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm-5.784 6A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216ZM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"/>
+            </svg>
+          </h3>
+          <h3 class="sayilar">
+            30
+          </h3>
+          <h6 class="sayilarla-p">
+            Öğretim Üyesi Başına Öğrenci
+          </h6>
+        </div>
+        <div class="col">
+          <h3>
+            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="sayilarla-icon bi bi-book-half" viewBox="0 0 16 16">
+              <path d="M8.5 2.687c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492V2.687zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z"/>
+            </svg>
+          </h3>
+          <h3 class="sayilar">
+            2452178
+          </h3>
+          <h6 class="sayilarla-p">
+            Kütüphane Kaynağı
+          </h6>
+        </div>
+      </div>
+    </div>
+    <!-- SAYILAR KTU END-->
+
+    <!-- FOOTER -->
+    <footer class="container-fluid pt-5 pb-2">
+      <div class="row">
+        <div class="col-sm-3">
+          <img src="https://www.ktu.edu.tr/image/Logo2.png" alt="" class="w-100">
+          <p class="ms-2 mt-3 text-light">
+            Karadeniz Teknik Üniversitesi, Tüm Hakları Saklıdır
+          </p>
+        </div>
+        <div class="col-sm-3">
+          <ul class="list-unstyled text-small">
+            <li class="mb-3">
+              <a class="text-light text-decoration-none" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                  <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                </svg>
+                Karadeniz Teknik Üniversitesi,61080,Trabzon,Türkiye
+              </a>
+            </li>
+            <li>
+              <a class="text-light text-decoration-none" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-at" viewBox="0 0 16 16">
+                  <path d="M13.106 7.222c0-2.967-2.249-5.032-5.482-5.032-3.35 0-5.646 2.318-5.646 5.702 0 3.493 2.235 5.708 5.762 5.708.862 0 1.689-.123 2.304-.335v-.862c-.43.199-1.354.328-2.29.328-2.926 0-4.813-1.88-4.813-4.798 0-2.844 1.921-4.881 4.594-4.881 2.735 0 4.608 1.688 4.608 4.156 0 1.682-.554 2.769-1.416 2.769-.492 0-.772-.28-.772-.76V5.206H8.923v.834h-.11c-.266-.595-.881-.964-1.6-.964-1.4 0-2.378 1.162-2.378 2.823 0 1.737.957 2.906 2.379 2.906.8 0 1.415-.39 1.709-1.087h.11c.081.67.703 1.148 1.503 1.148 1.572 0 2.57-1.415 2.57-3.643zm-7.177.704c0-1.197.54-1.907 1.456-1.907.93 0 1.524.738 1.524 1.907S8.308 9.84 7.371 9.84c-.895 0-1.442-.725-1.442-1.914z"/>
+                </svg>
+                kik@ktu.edu.tr
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-sm-3">
+          <ul class="list-unstyled text-small">
+            <li class="mb-3">
+              <a class="text-light text-decoration-none" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-telephone-inbound" viewBox="0 0 16 16">
+                  <path d="M15.854.146a.5.5 0 0 1 0 .708L11.707 5H14.5a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 1 0v2.793L15.146.146a.5.5 0 0 1 .708 0zm-12.2 1.182a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                </svg>
+                +90 462 377 3000
+              </a>
+            </li>
+            <li>
+              <a class="text-light text-decoration-none" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-telephone-inbound" viewBox="0 0 16 16">
+                  <path d="M15.854.146a.5.5 0 0 1 0 .708L11.707 5H14.5a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 1 0v2.793L15.146.146a.5.5 0 0 1 .708 0zm-12.2 1.182a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+                </svg>
+                +90 462 325 32 05 - 325 31 85
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-sm-3">
+          <ul class="list-unstyled text-small">
+            <li class="mb-2">
+              <a class="text-light text-decoration-none" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-google-play" viewBox="0 0 16 16">
+                  <path d="M14.222 9.374c1.037-.61 1.037-2.137 0-2.748L11.528 5.04 8.32 8l3.207 2.96 2.694-1.586Zm-3.595 2.116L7.583 8.68 1.03 14.73c.201 1.029 1.36 1.61 2.303 1.055l7.294-4.295ZM1 13.396V2.603L6.846 8 1 13.396ZM1.03 1.27l6.553 6.05 3.044-2.81L3.333.215C2.39-.341 1.231.24 1.03 1.27Z"/>
+                </svg>
+                Play Store
+              </a>
+            </li>
+            <li class="mb-2">
+              <a class="text-light text-decoration-none" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-apple" viewBox="0 0 16 16">
+                  <path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z"/>
+                  <path d="M11.182.008C11.148-.03 9.923.023 8.857 1.18c-1.066 1.156-.902 2.482-.878 2.516.024.034 1.52.087 2.475-1.258.955-1.345.762-2.391.728-2.43Zm3.314 11.733c-.048-.096-2.325-1.234-2.113-3.422.212-2.189 1.675-2.789 1.698-2.854.023-.065-.597-.79-1.254-1.157a3.692 3.692 0 0 0-1.563-.434c-.108-.003-.483-.095-1.254.116-.508.139-1.653.589-1.968.607-.316.018-1.256-.522-2.267-.665-.647-.125-1.333.131-1.824.328-.49.196-1.422.754-2.074 2.237-.652 1.482-.311 3.83-.067 4.56.244.729.625 1.924 1.273 2.796.576.984 1.34 1.667 1.659 1.899.319.232 1.219.386 1.843.067.502-.308 1.408-.485 1.766-.472.357.013 1.061.154 1.782.539.571.197 1.111.115 1.652-.105.541-.221 1.324-1.059 2.238-2.758.347-.79.505-1.217.473-1.282Z"/>
+                </svg>
+                App Store
+              </a>
+            </li>
+            <li class="mb-2">
+              <a class="text-light text-decoration-none" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                  <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                </svg>
+                Facebook
+              </a>
+            </li>
+            <li class="mb-2">
+              <a class="text-light text-decoration-none" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                  <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                </svg>
+                Twitter
+              </a>
+            </li>
+            <li class="mb-2">
+              <a class="text-light text-decoration-none" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                  <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                </svg>
+                Link-in
+              </a>
+            </li>
+            <li class="mb-2">
+              <a class="text-light text-decoration-none" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+                  <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/>
+                </svg>
+                YouTube
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row my-2">
+        <div class="col-sm-12">
+          <h6 class="text-white d-flex justify-content-center">
+            Designed by <b> --Rustem Akbarov</b>.
+          </h6>
+        </div>
+      </div>
+    </footer>
+    <!-- FOOTER END -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
